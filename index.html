@@ -3,9 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hello world</title>
+    <title>TrekMghreb</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello World !,,,,,,,,,,,</h1>
+    <header class="hero">
+        <div class="container">
+            <h1 class="main-title">TrekMghreb</h1>
+            <p class="tagline">Simplifiez vos voyages au Maroc avec des recommandations de qualité</p>
+            <form id="citySearchForm" class="search-bar">
+                <input type="text" id="city" name="city" placeholder="Recherchez une ville (Ex: Marrakech, Fès...)" required>
+                <button type="submit">Explorer</button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <section class="about">
+            <div class="container">
+                <div class="background-image">
+                    <img src="./public/assets/zlij.png" alt="zlij">
+                </div> <!-- Div pour l'image de fond -->
+                <h2>À propos de TrekMghreb</h2>
+                <p>
+                    TrekMghreb est une plateforme innovante pour explorer les trésors du Maroc. 
+                    Sélectionnez une ville pour découvrir les meilleures options pour séjourner, manger et vivre des expériences uniques. 
+                    Que vous soyez un voyageur local ou international, nous simplifions votre planification et offrons des recommandations de qualité.
+                </p>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <div class="feature-box">
+                    <h3>Lieux de Séjour</h3>
+                    <p>Découvrez des hôtels, riads et maisons d’hôtes adaptés à vos goûts et réservez en toute simplicité.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Lieux pour Manger</h3>
+                    <p>Explorez les meilleurs restaurants et cafés, découvrez des plats populaires et partagez vos avis.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Expériences</h3>
+                    <p>Participez à des activités culturelles et aventures inoubliables, et partagez vos propres découvertes.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 TrekMghreb | Explorer le Maroc, réinventé.</p>
+    </footer>
 </body>
 </html>
