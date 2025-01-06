@@ -1,0 +1,241 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Fond clair pour le body */
+    font-size: 16px;
+}
+.main-title{
+    font-size: 3rem;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+.container h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(252, 252, 252);
+
+    
+}
+.tagline{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+ 
+}
+/* Superposition semi-transparente pour le body */
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Superposition semi-transparente pour améliorer la lisibilité */
+    z-index: -1;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('./public/assets/marakkech-hotels-header.png') ; /* Utiliser l'image comme fond */
+
+    background-size: cover; /* L'image occupe toute la section */
+    background-position: center; /* Centrer l'image */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+    padding: 6rem 0; /* Ajouter un peu d'espace autour du contenu */
+    color: white; /* Texte en blanc */
+    text-align: center;
+    position: relative; /* Pour gérer les superpositions */
+}
+
+.hero .main-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-family: 'Merriweather', serif; /* Police élégante et traditionnelle */
+}
+
+.hero .tagline {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif; /* Police sans-serif pour un contraste léger */
+}
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Couche sombre pour améliorer la lisibilité du texte */
+    z-index: -1; /* Placer l'overlay derrière le texte */
+}
+
+/* Hotels Section */
+.hotels {
+    background-color: white; /* L'image Zellij en arrière-plan de la section des hôtels */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fixe l'image lors du défilement */
+    padding: 4rem 0;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.hotels::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Superposition semi-transparente pour améliorer la lisibilité */
+    z-index: -1;
+}
+
+/* Grid Layout for Hotels - 2 items per row */
+.hotels-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 éléments par ligne */
+    gap: 2rem; /* Espacement entre les cartes */
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Style for individual hotel cards */
+.hotel-card {
+    position: relative;
+    height: 300px;
+    width: 600px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+    border: 5px solid #000000; /* Bordure rouge pour accentuer les cartes */
+}
+
+/* Style pour les images des hôtels */
+.hotel-card .hotel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Hotel Info Box */
+.hotel-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Arrière-plan sombre pour rendre le texte lisible */
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(100%); /* Cache les informations en bas par défaut */
+}
+
+.hotel-card:hover .hotel-info {
+    transform: translateY(0); /* Affiche les informations au survol */
+}
+
+/* Textes dans les cartes d'hôtels */
+.hotel-info h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #fff; /* Texte clair */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Ombre portée */
+    margin-bottom: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.hotel-info h3:hover {
+    color: #3280b8; /* Couleur verte au survol pour plus d'impact */
+}
+
+.hotel-info p {
+    font-size: 1.1rem;
+    color: #fff;
+    margin: 0.2rem 0;
+    line-height: 1.5;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+/* Ajouter des bordures marocaines ou des motifs décoratifs */
+.decorative-border {
+    border: 2px solid #cc4b2d;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 2rem 0;
+    background-color: #f5f5f5;
+}
+/* Professional Header Styling */
+.navigation {
+    background-image:  url('./public/assets/marakkech-hotels-header-blur.png');
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 9px 5px 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nav-logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #007BFF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #007BFF;
+}
