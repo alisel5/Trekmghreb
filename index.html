@@ -7,21 +7,175 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Reset */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .hero {
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('https://www.journeys6senses.com/wp-content/uploads/2023/03/IMG_9676.jpg') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .main-title {
+            font-size: 3rem;
+            margin: 0;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            margin: 10px 0 30px;
+            font-weight: 300;
+        }
+
+        /* Professional Search Bar Styling */
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .search-bar select,
+        .search-bar button {
+            padding: 10px 15px;
+            font-size: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .search-bar select {
+            flex: 1;
+            cursor: pointer;
+            appearance: none;
+            background-color: #fff;
+        }
+
+        .search-bar button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .search-bar button:hover {
+            background-color: #0056b3;
+        }
+
+        @media (max-width: 600px) {
+            .search-bar {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .search-bar select,
+            .search-bar button {
+                width: 100%;
+            }
+        }
+
+        /* Professional Header Styling */
+        .navigation {
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .nav-logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #007BFF;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #007BFF;
+        }
+    </style>
 </head>
 <body>
+    <header class="navigation">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">TrekMghreb</a>
+            <nav class="nav-links">
+                <a href="#about">À propos</a>
+                <a href="#features">Caractéristiques</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
     <header class="hero">
         <div class="container">
             <h1 class="main-title">TrekMghreb</h1>
             <p class="tagline">Simplifiez vos voyages au Maroc avec des recommandations de qualité</p>
             <form id="citySearchForm" class="search-bar">
-                <input type="text" id="city" name="city" placeholder="Recherchez une ville (Ex: Marrakech, Fès...)" required>
+                <!-- Dropdown for city selection -->
+                <select id="city" name="city" required="">
+                    <option value="" disabled="" selected="">Choisissez une ville</option>
+                    <option value="marrakech">Marrakech</option>
+                    <option value="fes">Fès</option>
+                    <option value="casablanca">Casablanca</option>
+                    <option value="rabat">Rabat</option>
+                    <option value="tangier">Tanger</option>
+                </select>
+
+                <!-- Dropdown for category selection -->
+                <select id="category" name="category" required="">
+                    <option value="" disabled="" selected="">Choisissez une catégorie</option>
+                    <option value="places-to-stay">Lieux de Séjour</option>
+                    <option value="places-to-eat">Lieux pour Manger</option>
+                    <option value="experiences">Expériences</option>
+                </select>
+
+                <!-- Explore Button -->
                 <button type="submit">Explorer</button>
             </form>
         </div>
     </header>
 
     <main>
-        <section class="about">
+        <section class="about" id="about">
             <div class="container">
                 <div class="background-image">
                     <img src="https://i.ibb.co/xHsKYs0/zlij.png" alt="zlij">
@@ -35,7 +189,7 @@
             </div>
         </section>
 
-        <section class="features">
+        <section class="features" id="features">
             <div class="container">
                 <div class="feature-box">
                     <h3>Lieux de Séjour</h3>
