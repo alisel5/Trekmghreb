@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - TrekMghreb</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Contact Page Specific Styles */
+        .contact-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-container h1 {
+            font-size: 2rem;
+            color: #007BFF;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .contact-container form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .contact-container label {
+            font-size: 1rem;
+            color: #555;
+            font-weight: 500;
+        }
+
+        .contact-container input,
+        .contact-container textarea,
+        .contact-container button {
+            padding: 0.8rem;
+            font-size: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .contact-container textarea {
+            resize: vertical;
+            min-height: 150px;
+        }
+
+        .contact-container button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-container button:hover {
+            background-color: #0056b3;
+        }
+
+        .contact-details {
+            text-align: center;
+            margin-top: 2rem;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .contact-details p {
+            margin: 0.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="navigation">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">TrekMghreb</a>
+            <nav class="nav-links">
+                <a href="index.html#about">À propos</a>
+                <a href="index.html#features">Caractéristiques</a>
+                <a href="contact_us.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="contact-container">
+            <h1>Contactez-Nous</h1>
+            <form action="submit_contact.php" method="POST">
+                <label for="name">Nom complet</label>
+                <input type="text" id="name" name="name" placeholder="Votre nom" required>
+
+                <label for="email">Adresse e-mail</label>
+                <input type="email" id="email" name="email" placeholder="Votre e-mail" required>
+
+                <label for="subject">Sujet</label>
+                <input type="text" id="subject" name="subject" placeholder="Sujet de votre message" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Votre message" required></textarea>
+
+                <button type="submit">Envoyer le message</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 TrekMghreb | Explorer le Maroc, réinventé.</p>
+    </footer>
+</body>
+</html>
