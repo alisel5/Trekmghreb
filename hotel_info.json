@@ -1,0 +1,200 @@
+{
+    "hotel1": {
+        "title": "Palais Namaskar",
+        "location": "Route de Bab Atlas, No.88/69, Province Syba, 40000",
+        "rating": "4.5",
+        "photos": [
+            "https://lh3.googleusercontent.com/p/AF1QipMOPeVirWjN6khaVBchiYAi0r-b4rfxtm8tugog=s680-w680-h510",
+            "https://lh3.googleusercontent.com/p/AF1QipPKVgfHNun1HqwdoejiqWEMj71FAlnLkAGTmjyG=s680-w680-h510",
+            "https://lh3.googleusercontent.com/p/AF1QipOA_isn9mRsI9bHxLuZtZWAa0TzEpt70uw--XAz=s680-w680-h510"
+        ],
+        "amenities": ["★★★★★★"],
+        "price": 484
+    },
+    "hotel2": {
+        "title": "Riad Al Ksar & Spa",
+        "location": "Haysalam 11، Derb Al Aati Allah, Marrakesh 40000",
+        "rating": "4.4",
+        "photos": [
+            "https://www.hotelsmarrakesh.org/data/Photos/OriginalPhoto/11793/1179356/1179356593.JPEG",
+            "https://images.trvl-media.com/lodging/4000000/3150000/3147800/3147762/c0cddb4e.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+            "https://riad-ksar-saad.marrakeshhotelsmorocco.com/data/Imgs/OriginalPhoto/9722/972233/972233077/img-riad-spa-ksar-saad-marrakesh-1.JPEG"
+        ],
+        "amenities": ["★★★★☆"],
+        "price": 206
+    },
+    "hotel3": {
+        "title": "Hôtel La Mamounia",
+        "location": "Avenue Bab Jdid, Marrakesh 40040",
+        "rating": "4.5",
+        "photos": [
+            "https://lh3.googleusercontent.com/p/AF1QipPKLIuhYjF7zmCT-LFzvUlBUphYC_Az2XJ_Yig7=s680-w680-h510",
+            "https://lh3.googleusercontent.com/p/AF1QipPYwEsS93zLflrAVzqqmCg0M_xmk5aXtuqvOuji=s680-w680-h510",
+            "https://lh3.googleusercontent.com/p/AF1QipPrJZuS5ida_fz-bTUFEdm9MJSPjWgHYXi5-seu=s680-w680-h510"
+        ],
+        "amenities": ["★★★★★"],
+        "price": 559
+    },
+    "hotel4": {
+        "title": "Palais Thami",
+        "location": "Annakhil, Marrakech, Marrakech, Marrakech-Safi, Maroc",
+        "rating": "4.4",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/583652641.jpg?k=bfba0a26beb7344754daed80d9dd44a5dc64f89273ba0b93031c1e04d1a0021d&o=&hp=1",
+            "https://media.vrbo.com/lodging/104000000/103820000/103814800/103814798/5b186616.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/542683472.jpg?k=ceca00419164bbeea52b6d2a7cb5de3b8fc5b86b07728e2cfec7a75453fcb508&o=&hp=1"
+        ],
+        "amenities": ["★★★★☆"],
+        "price": 559
+    },
+    "hotel5": {
+        "title": "Villa Riad Sultana",
+        "location": "Atlas golf resort, Bloc 3, villa N1, Marrakech 40000",
+        "rating": "4.6",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578947469.jpg?k=76f1ec0320bd5531671e316ddd428345c51c0f08f591985fad4341b96b84cec3&o=&hp=1",
+            "https://www.hotelsmarrakesh.org/data/Photos/OriginalPhoto/16009/1600985/1600985810/photo-marrakesh-4.JPEG",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/579728925.jpg?k=9e33d5e5136ff7e8bf66e3d04e1f87c1e124ba70bda28ca591c6252983b72c82&o=&hp=1"
+        ],
+        "amenities": ["★★★★★"],
+        "price": 5003
+    }
+    ,
+    "hotel6": {
+        "title": "Wazo Hôtel",
+        "location": "No9, Bd Abdelkarim Al Khattabi, Marrakech 40000",
+        "rating": "3.8",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/265383797.jpg?k=60ca5b8b795970baf8950e1ad281c491750b0ecc7cf304faad61c055b42bfa0d&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max500/265383794.jpg?k=6d56df6454ff70c06119c3331ca12634754f45616810cdaf9f6182bb5d8cec36&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max500/77542045.jpg?k=fa34fcdf8c265e5751267549bf5edfb6d4d74e89ae8f6de12905d6218b16a446&o="
+        ],
+        "amenities": ["★★★★☆"],
+        "price": 554
+    },
+    "hotel7": {
+        "title": "Fairmont Tazi Palace",
+        "location": "Palais Tazi Ksar Al Mandoub, Jamaa Mokrae, Tangier 90000",
+        "rating": "4,7",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/615605801.jpg?k=6ada6380d7b853c3ea4b1918fceab37c1e72b331c3928e0a352245259f7197bf&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max500/615647084.jpg?k=26b8dddb9adac8f9eba77c2b091f546cfeddf8fc19bca40bba258f8177069a90&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max500/516135407.jpg?k=1fcb93aa733f9f66bd0f493c81b934c205afab211e1349c76d1adf9d828a03b7&o="
+        ],
+        "amenities": ["★★★★★"],
+        "price": 2400
+    }
+    ,
+    "hotel8": {
+        "title": "Kenzi Solazur",
+        "location": "168 Blvd. Mohamed VI, Tanger 90000",
+        "rating": "3,6",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/565239339.jpg?k=7e20c2166e7e234949aa9c5ac202e76f552a747cf4f89d7570cf7eac60612f54&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max500/565245645.jpg?k=a1230005c0d8c2e212ed1e1717214eba5d92e3f898392a6357a06207327248b3&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max500/597763705.jpg?k=e90ca07ed0445b71a0d124d95fe110b068b0bbac169f93a1dfb68a667d38fff4&o="
+        ],
+        "amenities": ["★★★★☆"],
+        "price": 946
+    }
+    ,
+    "hotel9": {
+        "title": "Diagonal Hôtel",
+        "location": "P38V+59J, Gueznaia, Tanger 90090",
+        "rating": "4,6",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/max500/550732270.jpg?k=688c376ce51f5e76888d711c41c87b5dbde1909ea0f44adbeaa3cc990882b1f0&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/553291138.jpg?k=299dd8a0eaa29b2ec6a945d8cacb4353a491919e508e023db5e88be60c5927db&o=&hp=1=",
+            "https://www.hoteldiagonalzero.com/wp-content/blogs.dir/1287/files/galeria-new/26.-piscina.jpg"
+        ],
+        "amenities": ["★★★★☆"],
+        "price": 927
+    },
+    "hotel10": {
+        "title": "Dar Mraha Appart hôtel",
+        "location": "R759+5X, Tanger 90000",
+        "rating": "4,9",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/559309551.jpg?k=cd88f847494b9fdb191a3b90d3778824f5f73b84875a65bf4428067a8f2d6c3d&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max500/600169322.jpg?k=37366572f893a48063b4c827c8a47f69c587dad2b2a7bc650c724676ac6d6d51&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max500/600169223.jpg?k=ffc6d4b84c913629eb70eeafa1096e9c323afe24d6f9ab59ecbc63348c90e282&o="
+        ],
+        "amenities": ["★★★★☆"],
+        "price": 927
+    }
+    ,
+    "hotel11": {
+        "title": "Mnar Park",
+        "location": "Cap Malabata, Route Ksar Sghir, 90000 Tanger",
+        "rating": "3,9",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/max500/178156240.jpg?k=b4eafb68d08260a942fb07ade9a5f76bb7079f52cdffb6f65d5b553a14103db4&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/178156274.jpg?k=8f40e1b137fbfed6580dc60cf1563c9c491e141b0b6e3efaa178b586b4668fd4&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max300/197358915.jpg?k=635f419278933b8d4512b6e542d9b39f0e73ac2f3f35026b54e55a9faf9064fc&o="
+        ],
+        "amenities": ["★★★☆☆"],
+        "price": 121
+    }
+    ,
+    "hotel12": {
+        "title": "Hilton Tangier City Center",
+        "location": "Hilton Tangier City Center",
+        "rating": "4,4",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/483749793.jpg?k=272af3917ba5c1dd00d9be7a248c9a709fb6961cbbc6b46b851eb00e18cdca85&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max500/538047083.jpg?k=0318947d891cbfe01a527b19e401610abd3c4ecdadc31a06de9a65fae676759b&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max500/538938666.jpg?k=9fca519a84fa31f8cfb732c515785df560d4f1268d92ce3bdfe52e09391b5dd4&o="
+        ],
+        "amenities": ["★★★★★"],
+        "price": 1120
+    },
+    "hotel13": {
+        "title": "Hotel Barcelo",
+        "location": "53 Av. Hassan II, Fès 30000",
+        "rating": "4,3",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/501723235.jpg?k=417341ed888af4d89eb5ae7d55eef3d6b823b50680aa2ad6d351faf6d8794fde&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max500/501772116.jpg?k=94aac1b35b99ca0cf97c7d735640c007531e706cc4e6934fd91c2d5c5511ee8c&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max300/501772138.jpg?k=2bb0cbb50370fcc07633c89982cd0e3b875d22e374bb90e61b333ed11d88d1bd&o="
+        ],
+        "amenities": ["★★★★★"],
+        "price": 625
+    },
+    "hotel14": {
+        "title": "Hotel Sahrai",
+        "location": "Fès 30000",
+        "rating": "4,5",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/73228561.jpg?k=0b4211a8bb0f2716da9703c4c90609439c6983f54114a329dccc4a1780e4b9eb&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max500/30521260.jpg?k=33e282e548eaa0bb74386c101a8410bb1858284084a27982cdedb1435b8b61b7&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max500/324312997.jpg?k=b3706847817a2bb9ec0257f9adce1b91b5b1ecb459c693dd99199ee648164bb5&o="
+        ],
+        "amenities": ["★★★★★"],
+        "price": 275
+    },
+    "hotel15": {
+        "title": "Riad Salam",
+        "location": "18 Derb Bennis Douh, Derb Ziat, Fes",
+        "rating": "4,4",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/65290037.jpg?k=7d1defc26aec2d988a7830caaea0505c2cb8931ea729c5e496fb1a9314baddd7&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max500/13633523.jpg?k=dea56cdc17763805720df86fe923cea044f414d09d53099765c6ec045450bbe3&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max300/13634115.jpg?k=404c743b8f8c038786a2878a5786e65fef5c9c9486fcd2ea9c03a0734c12e60b&o="
+        ],
+        "amenities": ["★★★★★"],
+        "price": 1425
+    }
+    ,
+    "hotel16": {
+        "title": "Marriott Hotel Jnan Palace",
+        "location": "8 Avenue Ahmed Chaouki, Fes 30000",
+        "rating": "4,3",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/442019616.jpg?k=3ce93f3a6af72e1986836c65f48f67018edfc3f0276fbb6a1e9e06de9477c5f4&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max500/442019617.jpg?k=796250b0479dff9f17d1e610714885c942d4486a7784e5f2c26126d54acc2c61&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max500/508542377.jpg?k=0c85972a959675bf75a08e64b57665f97973bf142e61c199b7d98c37530dad8f&o="
+        ],
+        "amenities": ["★★★★★"],
+        "price": 375
+    }
+}
