@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Details</title>
+    <link rel="stylesheet" href="single_hotel.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="page-container">
+        <header class="navbar">
+            <h1 class="logo">TREKMGHREB</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Caractéristiques</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main class="hotel-details">
+            <div class="photo-gallery">
+                <div id="photo-grid"></div>
+            </div>
+            <div class="info-panel">
+                <h2 id="hotel-title">Loading Title...</h2>
+                <p id="hotel-location">Loading Location...</p>
+                <div class="rating">
+                    <h3>Rating</h3>
+                    <span id="rating-value">4.8</span>
+                    <span class="rating-text">(97 reviews)</span>
+                </div>
+                <div class="amenities">
+                    <h3>Stars</h3>
+                    <div class="amenities-grid" id="amenities-list">
+
+                    </div>
+                </div>
+                <div class="booking-section">
+                    <h3>Price</h3>
+                    <p class="price" id="price">Loading...</p>
+                    <div class="date-selection">
+                        <div class="date-input-container">
+                            <div>
+                                <label for="check-in">Check-in Date:</label>
+                                <input type="date" id="check-in">
+                            </div>
+                            <div>
+                                <label for="check-out">Check-out Date:</label>
+                                <input type="date" id="check-out">
+                            </div>
+                        </div>
+                        <p id="total-price" class="total-price">Total: $0</p>
+                        <button class="reserve-btn" id="reserve-btn">Reserve</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
