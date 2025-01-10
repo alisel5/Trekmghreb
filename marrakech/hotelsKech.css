@@ -48,7 +48,7 @@ body::before {
 
 /* Hero Section */
 .hero {
-    background-image: url('./public/assets/marakkech-hotels-header.png') ; /* Utiliser l'image comme fond */
+    background-image: url('../public/assets/marakkech-hotels-header.png') ; /* Utiliser l'image comme fond */
 
     background-size: cover; /* L'image occupe toute la section */
     background-position: center; /* Centrer l'image */

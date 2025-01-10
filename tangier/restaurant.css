@@ -49,7 +49,7 @@ body::before {
 
 /* Hero Section */
 .hero {
-    background-image: url('./public/assets/tanjia.webp'); 
+    background-image: url('../public/assets/ok-donde-comer-en-tanger.jpg'); 
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat; 
@@ -196,7 +196,7 @@ footer {
 }
 
 .navigation {
-    background-image:  url('./public/assets/tanjia-blut.jpg');
+    background-image:  url('./public/assets/header-tanger-blurjpg.jpg');
     background-color: #ffffff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: sticky;

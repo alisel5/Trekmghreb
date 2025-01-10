@@ -47,7 +47,7 @@ body::before {
 
 /* Hero Section */
 .hero {
-    background-image: url('./public/assets/Tanger.png'); 
+    background-image: url('../public/assets/Tanger.png'); 
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat; 
