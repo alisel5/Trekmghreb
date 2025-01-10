@@ -196,7 +196,7 @@ footer {
 }
 
 .navigation {
-    background-image:  url('./public/assets/fesRestau-blur.jpg');
+    background-image:  url('../public/assets/fesRestau-blur.jpg');
     background-color: #ffffff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: sticky;

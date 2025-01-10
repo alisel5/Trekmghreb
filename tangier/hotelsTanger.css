@@ -200,7 +200,7 @@ footer {
 }
 
 .navigation {
-    background-image:  url('./public/assets/Tanger-blur.png');
+    background-image:  url('../public/assets/Tanger-blur.png');
     background-color: #ffffff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: sticky;
