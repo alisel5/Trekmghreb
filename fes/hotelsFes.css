@@ -1,14 +1,14 @@
 /* Global Reset */
 * {
     margin: 0;
-    padding: 0;
+
     box-sizing: border-box;
 }
 
 /* Body */
 body {
     font-family: 'Poppins', sans-serif;
-    color: #333;
+
     line-height: 1.6;
     background-color: #f9f9f9; /* Fond clair pour le body */
     font-size: 16px;
