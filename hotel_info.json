@@ -161,6 +161,18 @@
         "price": 625
     },
     "hotel14": {
+        "title": "Hotel Barcelo",
+        "location": "53 Av. Hassan II, Fès 30000",
+        "rating": "4,2",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/max500/612230548.jpg?k=67ea1547bc74bd0af2fb447fb6539ad6001eda0828ec36938fa6e26278bd3b5a&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max500/465124025.jpg?k=c9713407f6fd40662b3d9a26a88a9cb1bf4462192c806b8a3e8b1fb0be76dadd&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max300/465123734.jpg?k=782ae7d1c721e30b101af994b71ef91e27736822898c487b83220ff5f4b0f016&o="
+        ],
+        "amenities": ["★★★★☆"],
+        "price": 625
+    },
+    "hotel15": {
         "title": "Hotel Sahrai",
         "location": "Fès 30000",
         "rating": "4,5",
@@ -172,7 +184,7 @@
         "amenities": ["★★★★★"],
         "price": 275
     },
-    "hotel15": {
+    "hotel16": {
         "title": "Riad Salam",
         "location": "18 Derb Bennis Douh, Derb Ziat, Fes",
         "rating": "4,4",
@@ -185,7 +197,20 @@
         "price": 1425
     }
     ,
-    "hotel16": {
+    "hotel17": {
+        "title": "Vichy Thermalia Spa Hôtel",
+        "location": "B.P 2426 Fés principale Moulay Yacoub, 36150 Fès, Maroc",
+        "rating": "4,3",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/441084665.jpg?k=3fb329f1ab2b61e2c2b3180754a58d41c109c61ec50efc84a0e1d351512a4437&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max300/439456496.jpg?k=22ebafc54da70bb68ce7ee4e6b25112ad6326360d12e5a66870534c0ce3e442e&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max300/439456496.jpg?k=22ebafc54da70bb68ce7ee4e6b25112ad6326360d12e5a66870534c0ce3e442e&o="
+        ],
+        "amenities": ["★★★★☆"],
+        "price": 375
+    }
+    ,
+    "hotel18": {
         "title": "Marriott Hotel Jnan Palace",
         "location": "8 Avenue Ahmed Chaouki, Fes 30000",
         "rating": "4,3",
