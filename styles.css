@@ -1,22 +1,10 @@
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    color: #333;
-    background-color: #f9f9f9;
     line-height: 1.6;
-}
-
-.hero {
-    background: linear-gradient(to right, #4facfe, #00f2fe);
-    color: white;
-    padding: 2rem 0;
-    text-align: center;
 }
 
 .hero .main-title {

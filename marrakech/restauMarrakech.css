@@ -1,7 +1,6 @@
 /* Global Reset */
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -230,7 +229,6 @@ footer {
 
 .nav-links a {
     text-decoration: none;
-    color: #333;
     font-weight: 500;
     transition: color 0.3s ease;
 }
